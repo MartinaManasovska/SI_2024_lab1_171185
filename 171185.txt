@@ -10,6 +10,9 @@ git commit -m "Initial commit" (зачувување на промената)
 curl -k -o SILab1_1.java https://raw.githubusercontent.com/stefanandonov/SI_2024/master/SILab1_1.java
 curl -k -o SILab1_2.java https://raw.githubusercontent.com/stefanandonov/SI_2024/master/SILab1_2.java
 (Преземање на фајлови од оддалечен репозиториум и додавање во локалниот)
+git add  SILab1Main.java
+git add SILab1_1.java
+git add SILab1_2.java
 git commit -m "Add starter code" 
 8. git push SI_2024_lab1_171185 master (Синхронизација на сите гранки со оддалечениот репозиториум)
 9. git branch bug1 (креирање гранка)
@@ -30,9 +33,6 @@ git commit -m "Call method makeBigStringFrom in main class"
 19. git checkout master (враќање на мастер гранката)
 20. git merge bug1 (спојување на bug1 кон мастер гранката)
 21. git push SI_2024_lab1_171185 --all (синхронизација на сите гранки со оддалечениот репозиториум)
-*** се јави конфликт во main*
-git add SILab1Main.java
-git rebase --continue
 22. git checkout bug2 (префрлање на гранката bug2)
 23. git rebase master (rebase кон мастер гранката)
 24. git checkout master (префрлање на мастер гранката)
