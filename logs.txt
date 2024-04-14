@@ -39,4 +39,6 @@ git push SI_2024_lab1_171185 --all
 git push SI_2024_lab1_171185 --all --force
 notepad logs.txt
 git add logs.txt
+git add 171185.txt
 git commit -m "Final commit"
+$ git push SI_2024_lab1_171185 --all
